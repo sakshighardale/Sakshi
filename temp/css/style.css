@@ -97,3 +97,11 @@ h2 {
   color: rgb(157, 49, 6);
   font-family: serif;
 }
+.card {
+  height: 350px;
+  background: linear-gradient(
+    to top,
+    rgba(239, 132, 132, 0.836),
+    rgba(244, 158, 158, 0.884)
+  );
+}
