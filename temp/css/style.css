@@ -1,0 +1,99 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.header-body {
+  height: 90vh;
+  width: 100%;
+  background: linear-gradient(to top, rgba(67, 4, 4, 0.9), rgba(0, 0, 0, 0.3)),
+    url(https://images.pexels.com/photos/1714205/pexels-photo-1714205.jpeg?auto=compress&cs=tinysrgb&w=400);
+  background-size: cover;
+  color: white;
+}
+
+.h-100 {
+  height: 100%;
+  width: 100%;
+}
+
+.btn {
+  border-radius: 10rem !important;
+  padding: 1.25rem 2.25rem !important;
+  font-size: 18px;
+}
+
+.message {
+  background: linear-gradient(
+    to right,
+    rgb(239, 170, 248),
+    rgba(210, 120, 243, 0.1)
+  );
+}
+.my-icon {
+  font-size: 30px;
+  color: rgb(49, 192, 248);
+  padding: 3px;
+}
+
+.h1-title {
+  font-size: 45px;
+  font-family: cursive;
+  font-style: unset;
+}
+
+p {
+  font-size: 25px;
+}
+
+a {
+  color: white;
+  font-weight: none;
+  text-decoration: none;
+  width: 100%;
+}
+a:hover {
+  color: black;
+}
+.contact {
+  background: linear-gradient(
+    to right,
+    rgb(80, 208, 117),
+    rgba(139, 240, 6, 0.3)
+  );
+}
+.tocards {
+  background: linear-gradient(
+    to right,
+    rgb(241, 193, 63),
+    rgba(239, 203, 103, 0.3)
+  );
+}
+.scrolled-down {
+  transform: translateY(-100%);
+  transition: all 0.3s ease-in-out;
+}
+.scrolled-up {
+  transform: translateY(0);
+  transition: all 0.3s ease-in-out;
+}
+.navbar {
+  font-size: 18px;
+}
+.navbar ul li {
+  margin-left: 4px;
+}
+
+.bg-custom {
+  background: linear-gradient(to right, rgb(22, 61, 80), rgba(8, 186, 94, 0.7));
+}
+
+.img-fluid {
+  border-radius: 50%;
+}
+
+h5 {
+  color: rgb(255, 0, 55);
+}
+h2 {
+  color: rgb(157, 49, 6);
+  font-family: serif;
+}
